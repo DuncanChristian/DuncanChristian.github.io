@@ -1,0 +1,334 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	margin: 0 auto;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background-color: #ddd;
+}
+
+.wrapper {
+	overflow: auto;
+	width: 100%;
+}
+header {
+	text-align: center;
+	height: 200px;
+	background-color: #dba509;
+	color: #fff;
+	border-bottom: 5px solid #261D09;
+	border-top: 5px solid #261D09;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
+	background-repeat: no-repeat , repeat-x;
+	background-position: 45% center, 0 0;
+	background-size: auto 75%, auto auto, auto;
+	margin-top: 2.6em;
+	border-right-color: #261D09;
+	border-left-color: #261D09;
+	background-image: url(images/star.png);
+}
+header h2 {
+	margin-top: 1em;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	text-shadow: 0px 0px 12.48px rgba(0, 0, 0, 0.5);
+	color: #f4d304;
+	line-height: 0.8em;
+	font-family: Impact;
+	font-size: 66px;
+	font-weight: 400;
+}
+header p {
+	margin: 0;
+	line-height: 5em;
+	font-family: LucidaGrande;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	text-shadow: 0px 3px 4px rgba(0, 0, 1, 0.38);
+	letter-spacing: .5em;
+}
+nav {
+	background-color: #915a18;
+	text-align: center;
+	-webkit-box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	position: fixed;
+	width: 100%;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+nav ul li {
+	margin: 0;
+	display: inline-block;
+}
+nav ul li a:link  , nav ul li a:visited{
+	padding-top: 0.5em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	display: block;
+	border-left: 1px solid #261D09;
+	border-right: 1px solid #261D09;
+	border-top: 1px solid #261D09;
+	color: #ddd;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22px;
+	border-bottom-color: #261D09;
+	font-style: normal;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	background-color: #DBA509;
+	-webkit-box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.30);
+	box-shadow: 1px 3px 3px 0px rgba(0,0,0,0.30);
+	color: #ddd;
+}
+
+.logowhite {
+	color: #DDDDDD;
+
+}
+main {
+	overflow: auto;
+	text-align: left;
+	display: inline;
+	width: 80%;
+	border-right-width: 3px;
+	border-right-color: #DBA509;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: large;
+	float: left;
+}
+section article img {
+
+}
+
+main aside {
+	padding: 10px;
+	width: 20%;
+	border-bottom: 3px solid #261D09;
+	border-top: 5px solid #261D09;
+	min-height: 60px;
+	font-size: 90%;
+	border-right-color: #261D09;
+	border-left-color: #261D09;
+}
+main aside h2 {
+	font-size: 120%;
+}
+main > section {
+	width: 75%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 0;
+	margin: 0 1%;
+	box-sizing: border-box;
+}
+main section h1 {
+	margin: 0 0 5px 0;
+	font-size: 42px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #DBA509;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: center;
+}
+main section article h2 {
+	font-size: 28px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #DBA509;
+	font-weight: 700;
+	line-height: 22px;
+}
+main section article p {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #261D09;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: left;
+}
+.sidebar1 {
+	float: right;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	background-color: #DBA509;
+	margin-top: 15px;
+}
+.sidebar1 blockquote {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+.sidebar1 blockquote p {
+	padding: 0 .5em;
+	margin: 0 0 5px 0;
+	text-indent: -0.4em;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.sidebar1 blockquote cite {
+	display: block;
+	font-size: 90%;
+	text-align: right;
+	font-style: italic;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	vertical-align: central;
+}
+.sidebar1 p {
+	margin: 0 0 .5em 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #000000;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+}
+.sidebar2 {
+	float: right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #DBA509;
+}
+.sidebar2 figure {
+	margin: 0 0 10px 0;
+}
+.sidebar2 figure img {
+	margin: 0 auto;
+	display: block;
+}
+.sidebar2 figure figcaption {
+	margin: 5px 10px 15px 10px;
+	font-size: 90%;
+}
+.sidebar2 p {
+	margin: 0 0 .5em 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #261D09;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+footer {
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	clear: both;
+	margin: 10px 0;
+	background-color: #915A18;
+	font-size: 90%;
+	border-top: 3px solid #261D09;
+	border-bottom-color: #261D09;
+	border-right-color: #261D09;
+	border-left-color: #261D09;
+}
+footer p {
+	margin: 0 0 5px 0;
+	color: #ddd;
+}
+.profile {
+	margin: 0 25px 15px 25px;
+	padding-left: 10px;
+	border-left: 2px solid #F4D304;
+	border-bottom: 10px solid #F4D304;
+}
+section table {
+	font-family: "Arial Narrow", Arial, Verdana, sans-serif;
+	margin-bottom: 2em;
+	font-size: 90%;
+	border-bottom: 3px solid #261D09;
+	width: 95%;
+	border-collapse: collapse;
+	border-left: 3px solid #261D09;
+}
+section td, section th {
+	padding: 4px;
+	text-align: left;
+	border-top: 1px solid #261D09;
+}
+section th {
+	color: #ddd;
+	text-align: center;
+	border-bottom: 6px solid #261D09;
+	background-color: #915A18;
+}
+section .date {
+	width: 6em;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+section .class {
+	width: 10em;
+}
+section .event {
+	text-align: left;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	border-left: 1px solid #261D09;
+}
+section .description {
+}
+section .location {
+	text-align: left;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	border-left: 1px solid #261D09;
+	border-right: 3px solid #261D09;
+
+}
+section .cost {
+	width: 4em;
+	text-align: center;
+}
+section .length {
+	width: 4em;
+	text-align: center;
+}
+section .day {
+	width: 4em;
+	text-align: center;
+}
+table caption {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	color: #915A18;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 1.2em;
+	text-align: center;
+}
+.flt-rgt {
+	float: right;
+	border-left-style: solid;
+	border-right: thin solid #DBA509;
+	border-bottom-style: solid;
+	border-top: thin solid #DBA509;
+	margin-left: 10px;
+	border-left-width: thick;
+	border-bottom-width: thick;
+}
+.flt-lft {
+	float: left;
+	margin-right: 10px;
+}
+header h2 a:link, header h2 a:visited {
+	color: inherit;
+	text-decoration: none;
+	text-align: center;
+}
+.ctr {
+	text-align: center;
+	margin-top: 2em;
+}
+#classes {
+}

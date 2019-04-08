@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8"> 
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Add Title Here</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+
+</style>
+<link href="../mygreen-styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" --> 
+<meta name="description" content="add description here">
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="wrapper">
+<nav id="top">
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../books.html">Books</a></li>
+<li><a href="../blurts.html">Kurt Blurts</a></li>
+<li><a href="../bio.html">Bio</a></li>
+<li><a href="../illustrations.html">Illustrations</a></li>
+</ul>
+</nav>
+<header>
+<h2><a href="../index.html">kurt<span class="logowhite">vonnegut</span></a></h2>
+</header>
+<main><!-- TemplateBeginEditable name="sidebar1" -->
+<aside class="sidebar1">
+<blockquote>
+<p>&quot;Add quotation here.&quot;</p>
+<cite>Kurt Vonnegut</cite></blockquote>
+</aside>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="main_content" -->
+<section>
+<h1>Add main heading here</h1>
+<article>
+<h2>Add article heading here</h2>
+<p>Add content here.</p>
+</article>
+</section>
+<!-- TemplateEndEditable -->
+</main>
+<footer>
+<p>&copy; 2019. Kurt Vonnegut is dope</p>
+</footer>
+</div>
+</body>
+</html>
