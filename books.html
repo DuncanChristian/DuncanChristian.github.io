@@ -32,31 +32,24 @@
 <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="main_content" -->
 <section>
 	<div class = "page">
-		<h1>Best Sellers</h1>
-		<h2>#1</h2>
-		<ul id = "list">
-			<li id ="item">
-				<a id = "link">Slaughterhouse-Five</a>
-			</li>
+		<h2>
+			Order Books (double click to remove book)
+		</h2>
+		<ul style="display: block;">
+			<li id ="one" class="hot" style="display:list_item;">Slaughterhouse-Five</li>
+			<li id ="two" class="hot" style="display:list_item;">Cat's Cradle</li>
+			<li id ="three" class="hot" style="display:list_item;">Mother Night</li>
 		</ul>
-		<h2>#2</h2>
-		<ul id = "list2">
-			<li id ="item2">
-				<a id = "link2">Cat's Cradle</a>
-			</li>
-		</ul>
+	<div id="newItemButton" style="display: block;">
+		<button href="#" id="showForm">new item</button>
 	</div>
+	<form id ="newItemForm" style="display: none;">			
+		<input type="text" id="itemDescription" placeholder="Title">
+		<input type="submit" id="add" value="add">
+	</form>
+	</div>
+	<script src="js/jquery-1.11.0.js"></script>
 	<script src="js/event-flow.js"></script>
-	<div id = "page">
-	<h1> Personal Favorites</h1>
-	<ul>
-		<li class = "cool">Mother Night</li>
-		<li id = "one" class = "cool">Sirens of Titan</li>
-		<li id = "two" class = "cool">Jailbird</li>
-		<li id = "three" class = "cool">Breakfast of Champions</li>
-		<li class = "cool">Timequake</li>
-	</ul>
-	</div>
 	<script src = "js/example.js"></script>
   <h1>Kurts Works</h1>
   <article>
